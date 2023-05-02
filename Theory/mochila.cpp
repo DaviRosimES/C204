@@ -2,7 +2,7 @@
 	Exemplo de como resolver o problema da mochila usando as estratégias da força bruta e programação dinâmica.
 	A principal diferença está no uso da memória para armazenar soluções pré calculadas.
 */
-
+#include <iostream>
 #include <cstdio>
 #include <algorithm>
 using namespace std;
@@ -68,6 +68,7 @@ int main() {
     printf("%lld\n", forca_bruta(1, C));
 
     // Exibindo a solução por programação dinâmica
+    cout << "Programação Dinamica: ";
     printf("%lld\n", programacao_dinamica(1, C));
 
 }
